@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello LoanBoy"
+        android:translationX="80dp"
+        android:translationY="300dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to LoanBoy Central."
+        android:translationX="70dp"
+        android:translationY="100dp" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Press ME"
+        android:textAppearance="@color/colorPrimary"
+        android:translationX="67dp"
+        android:translationY="130dp"
+        android:onClick="nextPage"/>
+
+
+</LinearLayout>
